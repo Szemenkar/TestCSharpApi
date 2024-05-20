@@ -1,2 +1,0 @@
-# 404: Missing page
-Praesent ac pulvinar ipsum. Cras eget porttitor tellus. Maecenas ante dui, mattis et diam sit amet, lobortis dignissim dui. Suspendisse id sem ultricies, iaculis augue pharetra, imperdiet ipsum.
