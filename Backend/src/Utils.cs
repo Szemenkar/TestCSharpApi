@@ -61,14 +61,14 @@ public static class Utils
 
     public static Obj CountDomainsFromUserEmails()
     {
-        var emailDomain = Obj();
+        Obj emailDomain = new Obj();
 
-        var allEmailsInDb = SQLQuery("SELECT email FROM users");
+        var users = SQLQuery("SELECT email FROM users");
 
-        foreach (var domain in allEmailsInDb)
+        foreach (var user in users)
         {
-            var domains = RetrieveDomainName(domain);
-            if (domains.HasKey())
+            string domains = RetrieveDomainName(user.email);
+            if (emailDomain.HasKey(domains))
             {
                 emailDomain[domains]++;
             }

@@ -66,9 +66,25 @@ public class UtilsTest(Xlog Console)
     [Fact]
     public void TestCountDomainsFromUserEmails()
     {
+        Obj emailDomain = new Obj();
+
+        var users = SQLQuery("SELECT email FROM users");
+
+        foreach (var domain in users)
+        {
+            string domains = Utils.RetrieveDomainName(domain.email);
+            if (emailDomain.HasKey(domains))
+            {
+                emailDomain[domains]++;
+            }
+            else
+            {
+                emailDomain[domains] = 1;
+            }
+        }
 
         var result = Utils.CountDomainsFromUserEmails();
 
-        Assert.Equivalent(, result);
+        Assert.Equivalent(emailDomain, result);
     }
 }
