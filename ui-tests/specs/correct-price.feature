@@ -1,6 +1,6 @@
 Feature: As user I want to see the correct price for the product
 
-Scenario: Checks the price for the product
+Scenario: Displays the correct price for the chosen product
     Given that I am on the product page
     When I choose the category "Alla"
     Then I should see the price "3999" for the product "GeForce RTX Grafikkort"

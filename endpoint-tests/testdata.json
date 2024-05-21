@@ -1,5 +1,6 @@
 {
   "counter": 0,
+  "userCounter": 0,
   "categories": [
     {
       "name": "Grönsaker",
@@ -49,6 +50,13 @@
       "comment": "Inte alls så god mango",
       "productId": "Mango",
       "userId": 3
+    }
+  ],
+  "commentsFromUser": [
+    {
+      "comment": "Inte så nice gurka",
+      "productId": "Gurka",
+      "userId": 4
     }
   ]
 }

@@ -2,9 +2,9 @@ name: .NET Core Desktop
 
 on:
   push:
-    branches: [ "feature-endpoint-testing" ]
+    branches: [ "x" ]
   pull_request:
-    branches: [ "feature-endpoint-testing" ]
+    branches: [ "x" ]
 
 jobs:
 
