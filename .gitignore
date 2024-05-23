@@ -3,4 +3,3 @@ bin
 obj
 Backend/_db.sqlite3
 Dyndata
-node_modules
