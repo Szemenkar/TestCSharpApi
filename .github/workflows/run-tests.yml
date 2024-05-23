@@ -1,4 +1,4 @@
-name: Run unit tests
+name: .NET Core Desktop
 
 on:
   push:
@@ -40,7 +40,7 @@ jobs:
     - name: Execute unit tests
       run: dotnet test --logger "console;verbosity=detailed"
 
-        # Start backend non-blocking
+    # Start backend non-blocking
     - name: Start the backend
       shell: bash
       run: cd Backend && nohup dotnet run &
