@@ -1,4 +1,4 @@
-name: .NET Core Desktop
+name: Run unit tests
 
 on:
   push:
@@ -15,11 +15,11 @@ jobs:
         configuration: [Debug]
 
     runs-on: windows-latest  
-                            
+
     env:
       Solution_Name: Backend.sln
       Test_Project_Path: Backend
-  
+
     steps:
     - name: Checkout
       uses: actions/checkout@v4
@@ -39,13 +39,16 @@ jobs:
     # Execute all unit tests in the solution
     - name: Execute unit tests
       run: dotnet test --logger "console;verbosity=detailed"
-    
-    # Start backend non-blocking
+
+        # Start backend non-blocking
     - name: Start the backend
       shell: bash
       run: cd Backend && nohup dotnet run &
 
     # Run the endpoint tests
+    # (note: The reason we don't have to install Newman
+    #  is that it is already installed in the 
+    #  GitHub Actions Windows Server runner image)
     - name: Run the endpoint tests
       shell: bash
       run: cd endpoint-tests && npm test
