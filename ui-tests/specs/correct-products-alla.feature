@@ -1,0 +1,21 @@
+Feature: As user I want to see the correct products when I choose the category "Alla"
+
+Scenario: Checks that the category is "Alla" when chosen and correct products are shown
+    Given that I am on the product page
+    When I choose the category "Alla"
+    Then I should see the product "GeForce RTX"
+    And I should see the product "Kingston SSD"
+    And I should see the product "Corsair 16 GB"
+    And I should see the product "Intel Core i9"
+    And I should see the product "Logitech Pro X Superlight"
+    And I should see the product "ThunderX3 XTC"
+    And I should see the product "Logitech G Pro 60"
+    And I should see the product "Nothing Phone (2a)"
+    And I should see the product "Deltaco Powerbank 20000"
+    And I should see the product "Nothing Phone Screen Protector"
+    And I should see the product "Samsung External 2TB"
+    And I should see the product "WD Elements"
+    And I should see the product "Samsung External 1TB"
+    And I should see the product "Presentkort 150kr"
+    And I should see the product "Presentkort 250kr"
+    And I should see the product "Presentkort 1000kr"

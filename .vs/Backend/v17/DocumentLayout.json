@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\johan\\source\\repos\\CSharpApi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8B05F8D0-A606-4794-9600-DF73263903D1}|Backend\\Backend.csproj|c:\\users\\johan\\source\\repos\\csharpapi\\backend\\unit-tests\\utilstest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B05F8D0-A606-4794-9600-DF73263903D1}|Backend\\Backend.csproj|solutionrelative:backend\\unit-tests\\utilstest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B05F8D0-A606-4794-9600-DF73263903D1}|Backend\\Backend.csproj|c:\\users\\johan\\source\\repos\\csharpapi\\backend\\src\\utils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B05F8D0-A606-4794-9600-DF73263903D1}|Backend\\Backend.csproj|solutionrelative:backend\\src\\utils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UtilsTest.cs",
+              "DocumentMoniker": "C:\\Users\\johan\\source\\repos\\CSharpApi\\Backend\\unit-tests\\UtilsTest.cs",
+              "RelativeDocumentMoniker": "Backend\\unit-tests\\UtilsTest.cs",
+              "ToolTip": "C:\\Users\\johan\\source\\repos\\CSharpApi\\Backend\\unit-tests\\UtilsTest.cs",
+              "RelativeToolTip": "Backend\\unit-tests\\UtilsTest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-02T08:25:16.801Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Utils.cs",
+              "DocumentMoniker": "C:\\Users\\johan\\source\\repos\\CSharpApi\\Backend\\src\\Utils.cs",
+              "RelativeDocumentMoniker": "Backend\\src\\Utils.cs",
+              "ToolTip": "C:\\Users\\johan\\source\\repos\\CSharpApi\\Backend\\src\\Utils.cs",
+              "RelativeToolTip": "Backend\\src\\Utils.cs",
+              "ViewState": "AQIAAAMAAAAANDMzMzPbvwwAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-02T08:22:08.546Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
